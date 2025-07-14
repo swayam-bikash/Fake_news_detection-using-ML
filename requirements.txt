@@ -22,3 +22,8 @@ pip install \
   matplotlib==3.5.0 \
   seaborn==0.11.2 \
   scipy==1.7.0
+
+
+#Or you can simply use this command on your command prompt
+pip install numpy pandas scikit-learn textblob nltk scipy seaborn matplotlib shap streamlit
+
