@@ -1,0 +1,24 @@
+# Minimum requirements to run the original version
+pip install numpy pandas scikit-learn
+# For all new improvements (feature engineering, explainability, deployment)
+pip install \
+  textblob \          # Sentiment analysis
+  shap \              # Model explainability
+  streamlit \         # Web app deployment
+  matplotlib \        # Visualization
+  seaborn \           # Enhanced plots
+  scipy               # Sparse matrix operations
+
+# Download TextBlob corpora (for sentiment analysis)
+python -m textblob.download_corpora
+# Exact versions used in development
+pip install \
+  numpy==1.21.0 \
+  pandas==1.3.0 \
+  scikit-learn==1.0.0 \
+  textblob==0.17.1 \
+  shap==0.40.0 \
+  streamlit==1.12.0 \
+  matplotlib==3.5.0 \
+  seaborn==0.11.2 \
+  scipy==1.7.0
