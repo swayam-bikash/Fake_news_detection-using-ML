@@ -27,3 +27,9 @@ pip install \
 #Or you can simply use this command on your command prompt
 pip install numpy pandas scikit-learn textblob nltk scipy seaborn matplotlib shap streamlit
 
+
+
+
+Get the Fake news dataset from kaggle:-
+https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+
